@@ -1,0 +1,58 @@
+# Core Flask
+Flask==3.0.0
+Flask-Cors==4.0.0
+Werkzeug==3.0.1
+
+# Authentication
+PyJWT==2.8.0
+bcrypt==4.1.2
+
+# Database
+pymongo==4.6.1
+python-dotenv==1.0.0
+mongomock==4.1.2
+
+# Computer Vision & Detection
+opencv-python==4.9.0.80
+numpy==1.26.3
+Pillow==10.2.0
+
+# YOLO Detection
+ultralytics==8.1.0
+torch==2.1.2
+torchvision==0.16.2
+onnxruntime==1.16.3
+onnx==1.15.0
+omegaconf==2.3.0
+
+# OCR
+pytesseract==0.3.10
+easyocr==1.7.1
+
+# Image Processing
+scikit-image==0.22.0
+scipy==1.12.0
+
+# Tracking
+filterpy==1.4.5
+supervision==0.20.0
+
+# Utilities
+requests==2.31.0
+tqdm==4.66.1
+pandas==2.2.0
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Streamlit (if needed)
+streamlit==1.30.0
+
+# Production Server
+gunicorn==21.2.0
+waitress==3.0.0
+
+# Development
+pytest==7.4.4
+pytest-cov==4.1.0
+black==24.1.1
+flake8==7.0.0

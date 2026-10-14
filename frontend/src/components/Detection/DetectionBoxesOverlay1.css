@@ -1,0 +1,52 @@
+/* DetectionBoxesOverlay.css */
+.detection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.detection-box {
+  stroke-width: 3;
+  fill: none;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.detection-box.valid {
+  stroke: #00FF00;
+  filter: drop-shadow(0 0 4px #00FF00);
+}
+
+.detection-box.invalid {
+  stroke: #FFFF00;
+  filter: drop-shadow(0 0 4px #FFFF00);
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 4px currentColor);
+  }
+  50% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 8px currentColor);
+  }
+}
+
+.label-bg {
+  fill: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.detection-label {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.track-id {
+  font-size: 11px;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}

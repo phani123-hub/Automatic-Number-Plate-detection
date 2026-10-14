@@ -1,0 +1,55 @@
+.dashboard {
+  background: transparent;
+}
+
+.page-header,
+.panel-header,
+.status-row,
+.topbar-actions,
+.user-chip,
+.recent-item,
+.rank-item,
+.deck-row,
+.auth-actions-row {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  margin-bottom: 22px;
+}
+
+.page-header h1 {
+  line-height: 1.1;
+}
+
+.page-subtitle {
+  color: #d7e3f5;
+}
+
+.status-pill {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.empty-state {
+  padding: 48px 24px;
+}
+
+.empty-state h4 {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 991px) {
+  .dashboard-grid {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 990px) {
+  .settings-grid {
+    display: block;
+  }
+}
+

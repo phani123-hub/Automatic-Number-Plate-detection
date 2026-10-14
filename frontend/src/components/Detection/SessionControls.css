@@ -1,0 +1,26 @@
+/* SessionControls.css */
+.session-controls {
+  border: none;
+  border-radius: 12px;
+}
+
+.session-controls .card-header {
+  border-radius: 12px 12px 0 0 !important;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+.session-timer {
+  text-align: center;
+}
+
+.session-controls .btn {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.session-controls .btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

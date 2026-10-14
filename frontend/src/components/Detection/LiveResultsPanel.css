@@ -1,0 +1,21 @@
+/* LiveResultsPanel.css */
+.live-results {
+  border: none;
+  border-radius: 12px;
+}
+
+.live-results .card-header {
+  border-radius: 12px 12px 0 0 !important;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+.live-results .accordion-button {
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.live-results .accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  color: #333;
+}
